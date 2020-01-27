@@ -6,7 +6,7 @@
     "syntax",
     "caboose"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Landon Gravat",
     "email": "railinator4903@gmail.com"
@@ -17,7 +17,8 @@
   "scripts": {
     "mocha": "mocha",
     "test": "mocha --globals document test",
-    "test-browser": "mocha --globals document test/browser"
+    "test-browser": "mocha --globals document test/browser",
+    "prepublishOnly": "node ./tools/build.js -t all"
   },
   "engines": {
     "node": "*"
