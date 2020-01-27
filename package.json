@@ -1,0 +1,45 @@
+{
+  "name": "highlightjs-caboose",
+  "description": "Syntax highlighting for Caboose.",
+  "keywords": [
+    "highlight",
+    "syntax",
+    "caboose"
+  ],
+  "version": "9.18.0",
+  "author": {
+    "name": "Landon Gravat",
+    "email": "railinator4903@gmail.com"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "scripts": {
+    "mocha": "mocha",
+    "test": "mocha --globals document test",
+    "test-browser": "mocha --globals document test/browser"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "devDependencies": {
+    "bluebird": "^3.5.5",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "commander": "^4.0.0",
+    "del": "^5.1.0",
+    "gear": "github:highlightjs/gear",
+    "gear-lib": "github:highlightjs/gear-lib",
+    "glob": "^7.1.4",
+    "handlebars": "^4.5.3",
+    "js-beautify": "^1.10.2",
+    "jsdom": "^16.0.1",
+    "lodash": "^4.17.15",
+    "mocha": "^7.0.1",
+    "rollup": "^1.27.8",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "should": "^13.2.3",
+    "tiny-worker": "^2.3.0"
+  },
+  "dependencies": {}
+}
